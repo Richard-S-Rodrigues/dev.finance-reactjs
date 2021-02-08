@@ -1,0 +1,49 @@
+#transaction {
+    overflow-x: auto;
+}
+
+.btn.new {
+	border: none;
+	background-color: transparent;
+	color: #49aa26;
+	margin-left: -3em;
+}
+
+#data-table {
+	width: 100%;
+	border-spacing: 0 .5rem;
+	color: #969cb3;
+}
+
+#data-table th, #data-table td {
+	background: #fff;
+	padding: 1rem;
+	font-weight: normal;
+	text-align: center;
+}
+
+#data-table tr th:first-child, #data-table tr td:first-child {
+    text-align: left;
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+#data-table tbody tr {
+	opacity: .6;
+	transform: opacity .2s;
+}
+
+#data-table tbody tr:hover {
+    opacity: 1;
+}
+
+#data-table td.description {
+	color: #969cb3;
+}
+
+#data-table td.income {
+	color: #12a454;
+}
+
+#data-table td.expense {
+	color: #e92929;
+}

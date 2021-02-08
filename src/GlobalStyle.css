@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background: #f0f2f5;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	background: #2d4a22;
+	padding: 2em 0 10em;
+	text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+    color: #363f5f;
+    margin-top: 3.8rem;
+    margin-bottom: 0.8rem;
+}
+
+button {
+	width: 15em;
+    height: 50px;
+
+    font-size: 18px;
+
+    border: none;
+
+    color: white;
+    background: #49aa26;
+
+    padding: 0;
+
+    border-radius: 0.25rem;
+
+    cursor: pointer;
+}
+
+
+.container {
+	width: min(90vw, 800px);
+	margin: auto;
+}
+
+/*CSS trick to hide element from screen, so just the screenreader can see*/
+.screenreader-only {
+	position: absolute;
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+}
+
+footer {
+    text-align: center;
+    color: #363f5f;
+    opacity: 0.7;
+    padding: 4rem 0 2rem;
+
+}
+
+/*  RESPONSIVE - PC */
+@media(min-width: 800px) {
+    main.container {
+        margin-top: 3.5em;
+    }
+
+    #balance {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.5em;
+    }
+
+    .card {
+        width: 17.6em;
+    }
+
+    #transaction {
+        margin-top: 4em;
+    }
+}
