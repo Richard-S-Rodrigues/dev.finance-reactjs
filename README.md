@@ -2,7 +2,7 @@
   <img alt="dev.finances Logo" src="./src/assets/logo.svg" >
 </p>
 
-<p>dev.finance é um projeto de finanças da Maratona Discover da <a href='https://github.com/rocketseat-education/maratona-discover-01'>Rocketseat</a>.</p>
+<p>dev.finance é um projeto de finanças da Maratona Discover da <a href='https://github.com/rocketseat-education/maratona-discover-01' target='_blank'>Rocketseat</a>.</p>
 <hr>
 
 <p align="center">
